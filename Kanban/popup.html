@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>BAN-KAN</title>
+	<link href="./styles/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap&subset=cyryllic-ext"/>
+
+</head>
+
+<body>
+    <header>
+        <div class="info-block">
+            <img draggable="false" class="header-icon" src="./icons/info.svg" width="28px" height="28px"></img>
+        </div>
+        <div class="logo">
+            <h1>CheckIT-Box</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+				<div class="column" data-column-id="2">
+                    <img draggable="false" class="table-icon" src="./icons/list.svg" width="28px" height="28px"></img>
+                    <p class="column-header">Задачи</p>
+                    <div class="column-borderline-top"></div>
+                    <div data-notes class="column_tasks">
+					</div>
+                    <div class="column-borderline-bottom"></div>
+                    <p class="column-footer">
+						<span data-action-addNote class="action">+ Добавить задание</span>
+					</p>
+				</div>
+
+				<div class="column_descr" data-column-id="3">
+                    <img draggable="false" class="table-icon" src="./icons/notify.svg" width="28px" height="28px"></img>
+                    <p class="column-header">Описание</p>
+                    <div class="column-borderline-top-descr"></div>
+                    <div data-text class="descr_box"></div>
+                    <div class="column-borderline-bottom-descr"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="./scripts/note.js"></script>
+    <script src="./scripts/column.js"></script>
+    <script src="./scripts/buttons.js"></script>
+    <script src="./scripts/application.js"></script>
+    <script src="./scripts/popup.js"></script>
+</body>
+
+</html>
+</body>
+</html>
